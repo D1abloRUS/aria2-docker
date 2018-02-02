@@ -1,6 +1,6 @@
 env:
   global:
-  - REPO=d1ablorus/tftp
+  - REPO=d1ablorus/aria2
 
 services:
 - docker
