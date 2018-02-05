@@ -9,6 +9,8 @@ RUN apk --no-cache add --update \
      /root/* \
      /tmp/*
 
+EXPOSE 6925 6892
+
 VOLUME /home
 
 ENTRYPOINT ["/bin/sh", "/usr/local/bin/docker-entrypoint.sh"]
